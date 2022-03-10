@@ -1,0 +1,119 @@
+
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+
+
+*{
+    margin: 0 auto;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'League Gothic', sans-serif;
+    text-transform: none;
+
+}
+
+body{   
+    background: url('https://www.modulo.com.br/wp-content/uploads/2021/07/iStock-1224500457-1-1.jpg') center center no-repeat fixed ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.menu{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 70px;
+    border-bottom: 0.4px solid white;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+.logo-menu{
+    color: white;
+}
+.lista-menu{
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+    gap:30px;
+}
+
+.item-lista-menu{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.item-lista-menu:hover{
+    color: white;
+}
+
+.content-page{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 1000px;
+}
+
+.card-information{
+    justify-content:center;
+    padding-top: 150px;
+    height: 850px;
+}
+
+.card-content-body{
+    height: 500px;
+    max-width: 400px;
+    -webkit-box-shadow: -5px 6px 9px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: -5px 6px 9px 0px rgba(50, 50, 50, 0.75);
+    box-shadow: -5px 6px 9px 0px rgba(50, 50, 50, 0.75);
+
+}
+
+.card-body-information{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+.image-perfil{
+    max-height: 300px ;
+    border-radius: 50%;
+    padding-top: 40px;
+    padding-bottom: 20px ;
+}
+
+.border-separation-image-text{
+    border-top: 3px solid #545d68;;
+    width: 100px;
+    padding-bottom: 15px;
+}
+
+.card-title{
+    
+    text-transform: uppercase;
+    color: #545d68;
+    font-size: 35px;
+}
+
+.card-text{
+    color: #545d68;
+    font-size: 25px;
+}
+.card-icons-social{
+    display: flex;
+    gap:10px;
+}
+.card-icon{
+    color: #545d68;
+    font-size: 30px;
+}
+
+.card-icon:hover{
+    color: #111314;
+
+}
+
+
