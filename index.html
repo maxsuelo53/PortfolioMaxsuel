@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,37 +11,75 @@
 </head>
 <body>
     <header>
-        <nav class="menu">
-            <h1 class="logo-menu">Portfolio</h1> 
-            <ul class="lista-menu">
-                <li><a href="#card-information" class="item-lista-menu">Home</a></li>
-                <li><a href="#" class="item-lista-menu">Sobre</a></li>
-                <li><a href="#" class="item-lista-menu">Projetos</a></li>
-                <li><a href="#" class="item-lista-menu">Contato</a></li>
-            </ul>          
-        </nav>
+        <div class="image-background">
+            <nav class="menu">
+                <h1 class="logo-menu">Port<span>folio</span></h1> 
+                <ul class="lista-menu">
+                    <li><a href="#card-information" class="item-lista-menu">Home</a></li>
+                    <li><a href="#" class="item-lista-menu">Sobre</a></li>
+                    <li><a href="#" class="item-lista-menu">Projetos</a></li>
+                    <li><a href="#" class="item-lista-menu">Contato</a></li>
+                </ul>          
+            </nav>
+            <section class="person-information" id="card-information"> 
+                <div class="space-text-name-person">
+                    <div class="text-information-person">
+                        <h3 class="name-text-hello">Olá,</h3>
+                        <h1 class="name-title">Meu nome é <span>Maxsuel!</span></h1>
+                        <div class = "text-graduate">
+                            <i class="fa-solid fa-user-graduate icon-graduate"></i>
+                            <h3 class="text-graduate-course"> - Análise e Desenvolvimento de Sitemas</h3>
+                        </div>                        
+                    </div>
+                    <div class="social-media-icons-group">
+                        <a href="https://www.instagram.com/maxsueloalves/" target="_blank" class="icon-social-media"><i class="fa-brands fa-instagram-square"></i></a>
+                        <a href="https://www.facebook.com/maxsuel.oliveira.14/" target="_blank" class="icon-social-media"><i class="fa-brands fa-facebook-square"></i></a>
+                        <a href="https://www.linkedin.com/in/maxsuel-oliveira-alves-80b80817b/" target="_blank" class="icon-social-media"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/maxsuelo53" target="_blank" class="icon-social-media"><i class="fa-brands fa-git-square"></i></a>               
+                    </div>
+                </div>
+                <img src="https://media-exp1.licdn.com/dms/image/C4D03AQEl91FHAnuEfw/profile-displayphoto-shrink_800_800/0/1601696804961?e=1652313600&v=beta&t=rwvXYs70ju6v3e9_I-RNbR5v7d9CtjLft2f9H9BNlOM" alt="Foto de Perfil" class="image-person">
+            </section>
+        </div>
+
+        <div class="aboutme-content">
+            <div class="title-aboutme-content">
+                <i class="fa-solid fa-comment-dots icon-title-about"></i>
+                <h1>Sobre</h1>
+            </div>
+            <div class="text-aboutme-content">
+                <p class="bio-aboutme-content">
+                    Olá, sou Maxsuel Oliveira Alves, tenho 22 anos, cursei Ánalise e Desenvolvimento de Sistemas
+                    no Instituto Federal do Triângulo Mineiro Campus Patrocínio e me formei em 2021. 
+                    Durante o período de 2 anos atuei como atendente em um provedor de internet onde pude adquirir diversos 
+                    conhecimentos na área de redes, trabalhando com conceitos de protocolos IPs, DNS, roteadores e entre outros.
+                    Atualmente estou atuando na função de Suporte Técnico numa empresa de nuvem, neste cargo eu auxilio em configurações de E-mails,
+                    hospedagem de sites, serviços de backup, arquivos em nuvens e máquinas virtuais. Minha maior paixão da área de tecnologia é
+                    o desenvolvimento de códigos, durante meu curso eu tive a honra de participar de projetos que pude criar jogos e ter contato
+                    com diversas linguagens de programação, seguindo essa linha conheci linguagens de front-end e back-end.
+                </p>
+                <div class="cards-job">
+                    <div class="card text-dark bg-light mb-3 card-job-item">
+                        <div class="card-header">Header</div>
+                        <div class="card-body">
+                        <h5 class="card-title">Light card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                    <div class="card text-dark bg-light mb-3 card-job-item">
+                        <div class="card-header">Header</div>
+                        <div class="card-body">
+                        <h5 class="card-title">Light card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>     
     </header>
 
     <main class="content-page">
-        <section class="card-information" id="card-information">            
-            <div class="card-content-body card text-dark bg-light">
-                <div>
-                    <span class="bord-image-perfil"> </span>
-                    <img src="https://media-exp1.licdn.com/dms/image/C4D03AQEl91FHAnuEfw/profile-displayphoto-shrink_800_800/0/1601696804961?e=1652313600&v=beta&t=rwvXYs70ju6v3e9_I-RNbR5v7d9CtjLft2f9H9BNlOM" alt="Foto de Perfil" class="image-perfil">
-                </div>
-                <div class="card-body-information">
-                    <div class="border-separation-image-text"></div>
-                    <h5 class="card-title">Maxsuel Oliveira Alves</h5>
-                    <p class="card-text">Patrocínio-MG</p>
-                    <div class="card-icons-social">
-                        <a href="https://www.instagram.com/maxsueloalves/" target="_blank" class="card-icon"><i class="fa-brands fa-instagram-square"></i></a>
-                        <a href="https://www.facebook.com/maxsuel.oliveira.14/" target="_blank" class="card-icon"><i class="fa-brands fa-facebook-square"></i></a>
-                        <a href="https://www.linkedin.com/in/maxsuel-oliveira-alves-80b80817b/" target="_blank" class="card-icon"><i class="fa-brands fa-linkedin"></i></a>
-                        <a href="https://github.com/maxsuelo53" target="_blank" class="card-icon"><i class="fa-brands fa-git-square"></i></a>
-                    </div>
-                </div>                
-            </div>
-        </section>
+        
         
 
 
