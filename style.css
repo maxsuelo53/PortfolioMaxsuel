@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Lato:wght@900&family=League+Gothic&display=swap');
 
-
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Lato:wght@900&family=League+Gothic&family=Roboto&display=swap');
 *{
     margin: 0 auto;
     padding: 0px;
@@ -130,11 +129,14 @@
 /*================ BANNER ======================*/
 
 /*================ ABOUT ME ======================*/
+
+/*================ TEXT BIO */
 .aboutme-content{
-    height: 500px;
+    height: 2000px;
     width: 100%;
     display: flex;
     flex-direction: column;
+    background-color: #f7f7f7;
 }
 
 .title-aboutme-content{
@@ -165,28 +167,76 @@
 }
 
 .bio-aboutme-content{
-    max-width: 500px;
+    max-width: 1000px;
     padding-top: 50px;
     text-align: justify;
     font-size: 20px;
 }
+/*================ TEXT BIO */
+
+/*================ CARD BIO */
+.info-person-content{
+    padding-top:50px;
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    min-width: 1000px;
+    max-width: 1000px;
+}
 
 .cards-job{
-    padding-top: 50px;
     display: flex;
     flex-direction: column;
     gap: 30px;
+    margin-left: 1px;
 }
 
 .card-job-item{
-    width: 13rem;
-    height: 13rem;
+    display: flex;
+    width: 20rem;
+    height: 20rem;
     cursor: pointer;
     text-align: justify;
+    background-color: white ;
+    box-shadow: 0 0 1.5em rgba(0, 0, 0, 0.11);
+    flex-direction: column;
+    transition: 0.2s;
+    justify-content: center;
+    text-decoration: none;
 }
 
-.card-job-item:hover{
-    color: #07a1c5;
+.card-onnet{
+    border-bottom: 5px solid #35db19;
 }
+
+.card-onnet:hover{
+    border-bottom: 40px solid #35db19;
+}
+
+.card-bc{
+    border-bottom: 5px solid #2bafcf;
+}
+
+.card-bc:hover{
+    border-bottom: 40px solid #2bafcf;
+}
+
+.card-job-item-icon-onnet{
+    font-size: 80px;
+    color:#35db19;
+}
+
+.card-job-item-icon-bc{
+    font-size: 80px;
+    color: #2bafcf;
+}
+
+.card-job-item-text{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+/*================ CARD BIO */
+
 /*================ ABOUT ME ======================*/
 
