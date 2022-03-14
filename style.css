@@ -25,7 +25,7 @@
 }
 
 .logo-menu span{
-    color: #07a1c5; 
+    color: #2196f3; 
     font-weight: bold;
 }
 .lista-menu{
@@ -86,7 +86,7 @@
 }
 
 .name-title span{
-    color: #07a1c5; 
+    color: #2196f3; 
     font-weight: bold;
 }
 
@@ -124,7 +124,7 @@
 }
 
 .icon-social-media:hover{
-    color: #07a1c5; 
+    color: #2196f3; 
 }
 /*================ BANNER ======================*/
 
@@ -141,21 +141,27 @@
 
 .title-aboutme-content{
     display: flex;
+    width: 1000px;
     padding-top: 50px;
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    gap: 10px;
 }
 
 
 .icon-title-about{
-    color: #07a1c5;
+    color: #2196f3;
     font-size: 50px;
+    position: relative;
+    right: 21%;
+    bottom: 3px;
 }
 
 .title-aboutme-content h1{
     font-family: 'Lato', sans-serif;
+    position: relative;
+    right: 61%;
+    font-size: 50px;
 }
 
 .text-aboutme-content{
@@ -179,7 +185,7 @@
     padding-top:50px;
     display: flex;
     flex-direction: row;
-    gap: 200px;
+    gap: 100px;
     min-width: 1000px;
     max-width: 1000px;
 }
@@ -222,12 +228,12 @@
 }
 
 .card-job-item-icon-onnet{
-    font-size: 80px;
+    font-size: 100px;
     color:#35db19;
 }
 
 .card-job-item-icon-bc{
-    font-size: 80px;
+    font-size: 100px;
     color: #2bafcf;
 }
 
@@ -237,6 +243,148 @@
     font-weight: bold;
 }
 /*================ CARD BIO */
+
+/*================ TABLE INFO */
+
+.title-text-info-person-jobs{
+    font-weight: bold;
+}
+
+.table-info-person-content{
+    padding-top: 50px;
+}
+
+.table-info-person tbody tr td{
+    font-weight: none;
+    padding-top: 50px;
+    font-size: 20px;
+
+}
+
+.table-info-person tbody tr td:nth-child(1){
+    white-space: nowrap;
+    padding-right: 50px;
+}
+
+.table-info-person tbody tr td:nth-child(2){
+    padding-right: 40px;
+}
+
+.table-info-person tbody tr td:nth-child(3){
+    padding-left: 40px;
+}
+
+
+/*================ TABLE INFO */
+
+
+/*================ SKILLS */
+
+.skills-content{
+    width: 1000px;
+    padding-top: 30px;
+    border-top: 2px solid #c4c4c4 ;
+    margin-top: 100px;
+}
+
+.title-skills-content{
+    display: flex;
+    width: 1000px;
+    padding-top: 50px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.title-skills-content i{ 
+    position: relative;
+    right: 15%;
+    font-size: 50px;
+    color: #2196f3;
+}
+
+.title-skills-content h1{
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    right: 44%;
+    font-size: 50px;
+}
+
+.division-skills{
+    padding-top: 50px;
+}
+
+
+/*================ SKILLS */
+
+
+.contact-page{
+    height: 400px;
+    display: flex;
+    background-color: #2196f3;
+}
+
+.contact-content{
+    max-width: 1000px;
+}
+
+.title-contact-content{
+    display: flex;
+    width: 1000px;
+    padding-top: 50px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.icon-title-contact{
+    font-size: 50px;
+    position: relative;
+    right: 21%;
+    bottom: 3px;
+}
+
+.title-contact-content h1{
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    right: 61%;
+    font-size: 50px;
+    color: white;
+}
+
+.information-contact-content{
+    display: flex;
+}
+
+.cards-information-contact{
+    display: flex;
+    gap: 30px;
+    padding-top: 50px;
+
+}
+
+.card-information-contact{
+    display: flex;
+    width: 20rem;
+    height: 10rem;
+    cursor: default;
+    text-align: justify;
+    background-color: white ;
+    box-shadow: 0 0 1.5em rgba(0, 0, 0, 0.11);
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-information-contact h3{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+    right: 100px;
+    bottom:30px;
+    
+}
 
 /*================ ABOUT ME ======================*/
 
