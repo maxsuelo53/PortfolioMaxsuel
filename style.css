@@ -240,14 +240,21 @@
 .card-job-item-text{
     text-decoration: none;
     color: black;
-    font-weight: bold;
 }
 /*================ CARD BIO */
 
 /*================ TABLE INFO */
+.text-info-person-jobs-content{
+    box-shadow: 0 0 1.5em rgba(0, 0, 0, 0.11);
+    background-color: white;
+    padding: 40px;
+
+}
 
 .title-text-info-person-jobs{
     font-weight: bold;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .table-info-person-content{
@@ -282,36 +289,51 @@
 
 .skills-content{
     width: 1000px;
-    padding-top: 30px;
-    border-top: 2px solid #c4c4c4 ;
     margin-top: 100px;
+    background-color: white;
+    padding: 50px;
+    box-shadow: 0 0 1.5em rgba(0, 0, 0, 0.11);
 }
 
 .title-skills-content{
     display: flex;
     width: 1000px;
-    padding-top: 50px;
     flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-}
 
-.title-skills-content i{ 
-    position: relative;
-    right: 15%;
-    font-size: 50px;
-    color: #2196f3;
 }
 
 .title-skills-content h1{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
     position: relative;
-    right: 44%;
-    font-size: 50px;
+    font-weight: bold;
+    right: 39%;
+    font-size: 25px;
 }
 
 .division-skills{
     padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-skill-one{
+    padding-bottom: 40px;
+}
+
+
+.progess-skill-bar-background{
+    background-color: #c4c4c4;
+    width: 250px;
+    height: 5px; 
+}
+
+.progress-skill-bar{
+    background-color: red;
+    width: 50%;
+    height: 5px;
+    padding: 0%;
+    margin: 0;
 }
 
 
