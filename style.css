@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: 'Hubballi', cursive;
     text-transform: none;
+    color: #e6f2fc;
 
 }
 
@@ -13,19 +14,23 @@
 
 .menu{
     height: 70px;
-    border-bottom: 0.4px solid white;
+    right: 185px;
+    border-bottom: 0.4px solid #e6f2fc;
     text-transform: uppercase;
     display: flex;
     justify-content: space-around;
     align-items:center;
+    width: 1220px;
+    position: fixed;
+    background-color: #191c24;
+    z-index: 9999;
 }
 .logo-menu{
-    color: white;
     cursor: default;
 }
 
 .logo-menu span{
-    color: #2196f3; 
+    color: #2ead69; 
     font-weight: bold;
 }
 .lista-menu{
@@ -36,7 +41,7 @@
 }
 
 .item-lista-menu{
-    color: white;
+    color: #e6f2fc;
     text-transform: uppercase;
     text-decoration: none;
     font-size: 20px;
@@ -44,49 +49,56 @@
 }
 
 .item-lista-menu:hover{
-    color: white;
+    color: #e6f2fc;
 }
 
 /*================ MENU ======================*/
 
 
 /*================ BANNER ======================*/
+.fundo {
+    background-color: black;  
+}
 .image-background{
-    background-image: url(/background.jpg) ;
-    background-size: cover;
+   /* background-image: url(/background.jpg) ;*/
+    background-color: #191c24;
+    width: 1220px;
+    border-radius: 0px 0px 10px 10px;
 }
 .person-information{
     display: flex;
+    width: 1000px;
     justify-content:space-around;
     align-items: center;
     height: 600px;
 }
 
 .image-person{
-    width: 400px;
+    width: 300px;
     border-radius: 50%;
 }
 
 .text-information-person{
     cursor:default;
+    margin-top: 150px;
 }
 
 .name-text-hello{
-    color:white;
+    color:#e6f2fc;
     padding-bottom: 0px;
     margin-bottom: 0px;
     font-size: 70px;
-    font-family: 'League Gothic', sans-serif;
+    font-family: 'Lato', sans-serif;
     letter-spacing: 5px;
 }
 
 .name-title{
-    color:white;
+    color:#e6f2fc;
     font-size: 60px;
 }
 
 .name-title span{
-    color: #2196f3; 
+    color: #2ead69; 
     font-weight: bold;
 }
 
@@ -97,34 +109,33 @@
 }
 
 .icon-graduate{
-    color:white;
+    color:#e6f2fc;
     margin-left: 0px;
     margin-right: 0px;
 }
 .text-graduate-course{
     margin-left: 10px;
-    color:white;
+    color:#e6f2fc;
     padding-bottom: 0px;
     margin-bottom: 0px;
     font-size: 30px;
 }
-
 .social-media-icons-group{
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-    height: 250px;
+    margin-top: 100px;
 }
 
 .icon-social-media{
-    color:white;
+    color:#e6f2fc;
     font-size: 50px;
     margin-left: 5px;
     margin-right: 10px;
 }
 
 .icon-social-media:hover{
-    color: #2196f3; 
+    color: red; 
 }
 /*================ BANNER ======================*/
 
@@ -132,36 +143,11 @@
 
 /*================ TEXT BIO */
 .aboutme-content{
-    height: 2000px;
+    height: 1900px;
     width: 100%;
     display: flex;
     flex-direction: column;
-    background-color: #f7f7f7;
-}
-
-.title-aboutme-content{
-    display: flex;
-    width: 1000px;
-    padding-top: 50px;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-}
-
-
-.icon-title-about{
-    color: #2196f3;
-    font-size: 50px;
-    position: relative;
-    right: 21%;
-    bottom: 3px;
-}
-
-.title-aboutme-content h1{
-    font-family: 'Lato', sans-serif;
-    position: relative;
-    right: 61%;
-    font-size: 50px;
+    background-color: #000000;
 }
 
 .text-aboutme-content{
@@ -173,19 +159,22 @@
 }
 
 .bio-aboutme-content{
+    margin-top: 30px;
     max-width: 1000px;
-    padding-top: 50px;
     text-align: justify;
     font-size: 20px;
+    background-color: #191c24 ;
+    box-shadow: 0 0 1.5em rgba(0, 0, 0, 0.11);
+    border-radius: 10px;
+    padding: 30px;
 }
 /*================ TEXT BIO */
 
 /*================ CARD BIO */
 .info-person-content{
-    padding-top:50px;
+    padding-top:20px;
     display: flex;
     flex-direction: row;
-    gap: 100px;
     min-width: 1000px;
     max-width: 1000px;
 }
@@ -203,51 +192,56 @@
     height: 20rem;
     cursor: pointer;
     text-align: justify;
-    background-color: white ;
+    background-color: #191c24 ;
     box-shadow: 0 0 1.5em rgba(0, 0, 0, 0.11);
     flex-direction: column;
     transition: 0.2s;
     justify-content: center;
     text-decoration: none;
+    border-radius: 10px;
 }
 
 .card-onnet{
-    border-bottom: 5px solid #35db19;
+    border-bottom: 5px solid #feb815;
 }
 
 .card-onnet:hover{
-    border-bottom: 40px solid #35db19;
+    border-bottom: 40px solid #feb815;
 }
 
 .card-bc{
-    border-bottom: 5px solid #2bafcf;
+    border-bottom: 5px solid #3ad8ff;
 }
 
 .card-bc:hover{
-    border-bottom: 40px solid #2bafcf;
+    border-bottom: 40px solid #3ad8ff;
 }
 
 .card-job-item-icon-onnet{
     font-size: 100px;
-    color:#35db19;
+    color: #feb815;
 }
 
 .card-job-item-icon-bc{
     font-size: 100px;
-    color: #2bafcf;
+    color: #3ad8ff;
 }
 
 .card-job-item-text{
     text-decoration: none;
-    color: black;
+    color: #e6f2fc;
 }
 /*================ CARD BIO */
 
 /*================ TABLE INFO */
 .text-info-person-jobs-content{
     box-shadow: 0 0 1.5em rgba(0, 0, 0, 0.11);
-    background-color: white;
+    background-color: #191c24;
+    border-radius: 10px;
     padding: 40px;
+    width: 640px;
+    position: relative;
+    left: 14px;
 
 }
 
@@ -289,10 +283,11 @@
 
 .skills-content{
     width: 1000px;
-    margin-top: 100px;
-    background-color: white;
+    margin-top: 35px;
     padding: 50px;
     box-shadow: 0 0 1.5em rgba(0, 0, 0, 0.11);
+    background-color: #191c24;
+    border-radius: 10px;
 }
 
 .title-skills-content{
@@ -307,7 +302,7 @@
     text-transform: uppercase;
     position: relative;
     font-weight: bold;
-    right: 39%;
+    right: 41%;
     font-size: 25px;
 }
 
@@ -323,27 +318,115 @@
 
 
 .progess-skill-bar-background{
-    background-color: #c4c4c4;
+    background-color: #313646;
     width: 250px;
     height: 5px; 
 }
 
 .progress-skill-bar{
-    background-color: red;
-    width: 50%;
+
     height: 5px;
     padding: 0%;
     margin: 0;
 }
 
+.linguagemC-progress{
+    width: 95%;
+    background-color: #2196f3;
+}
 
-/*================ SKILLS */
+.HTML-progress{
+    width: 90%;
+    background-color: #ff9300;
+}
 
+.java-progress{
+    width: 80%;
+    background-color: #e01e24;
+}
+
+.Cc-progress{
+    width: 50%;
+    background-color: #7b20d1;
+}
+
+.css-progress{
+    width: 70%;
+    background-color: #33f4ff;
+}
+
+.JavaScript-progress{
+    width: 20%;
+    background-color: #ead41c;
+}
+
+.node-progress{
+    width: 30%;
+    background-color: green;
+}
+
+.angular-progress{
+    width: 30%;
+    background-color: #ea00ff;
+}
+
+.sql-progress{
+    width: 50%;
+    background-color: #2ead69;
+}
+
+
+/*================ SKILL */
+
+/*================ GRADUATION */
+
+.graduation-content{
+    width: 1000px;
+    margin-top: 35px;
+    padding: 50px;
+    box-shadow: 0 0 1.5em rgba(0, 0, 0, 0.11);
+    background-color: #191c24;
+    border-radius: 10px;
+}
+
+.title-graduation-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.title-graduation-content h1{
+    position: relative;
+    right: 41%;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+}
+.information-graduation-text-content{
+    background-color: #232733;
+    box-shadow: 0 0 1.5em rgba(0, 0, 0, 0.11);
+    margin-top: 40px;
+}
+
+.information-graduation-text-content h3{
+    padding: 10px 0px 0px 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.information-graduation-text-content h4{
+    padding: 0px 0px 10px 20px;
+    font-size: 17px;
+}
+/*================ GRADUATION */
 
 .contact-page{
-    height: 400px;
+    height: 250px;
     display: flex;
-    background-color: #2196f3;
+    background-color: rgb(46, 173, 105);
+    background-image: linear-gradient(to bottom, rgb(22, 85, 51), rgb(46, 173, 105));
 }
 
 .contact-content{
@@ -357,21 +440,6 @@
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-}
-
-.icon-title-contact{
-    font-size: 50px;
-    position: relative;
-    right: 21%;
-    bottom: 3px;
-}
-
-.title-contact-content h1{
-    font-family: 'Lato', sans-serif;
-    position: relative;
-    right: 61%;
-    font-size: 50px;
-    color: white;
 }
 
 .information-contact-content{
@@ -391,10 +459,11 @@
     height: 10rem;
     cursor: default;
     text-align: justify;
-    background-color: white ;
+    background-color: rgb(25, 28, 36) ;
     box-shadow: 0 0 1.5em rgba(0, 0, 0, 0.11);
     flex-direction: column;
     justify-content: center;
+    border-radius: 10px;
 }
 
 .card-information-contact h3{
@@ -405,6 +474,17 @@
     position: relative;
     right: 100px;
     bottom:30px;
+    
+}
+
+.card-information-contact h2{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+    right: 100px;
+    bottom: 15px;
     
 }
 
